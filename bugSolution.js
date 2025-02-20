@@ -1,0 +1,1 @@
+function foo(a, b) {  if (typeof a === 'string' || typeof b === 'string') {    return String(a) + String(b);  } else {    return a + b;  }}console.log(foo(1, 2)); // Expected Output: 3console.log(foo(1, '2')); // Expected Output: 12console.log(foo('1', 2)); // Expected Output: 12console.log(foo('1', '2')); // Expected Output: 12
